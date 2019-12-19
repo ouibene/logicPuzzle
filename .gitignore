@@ -1,0 +1,35 @@
+#
+# Normal rules
+#
+.*
+*.o
+*.a
+*.s
+*.so
+*.i
+*.gcno
+*.gcda
+*.gcov
+*.output
+
+#
+# Top-level generic files
+#
+/tags
+/TAGS
+
+#
+# git files that we don't want to ignore even if they are dot-files
+#
+!.gitignore
+
+# ctag files
+tags
+
+#
+# patch/merge original and/or well-known backup file
+#
+.orig
+*~
+\#*#
+
